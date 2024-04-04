@@ -63,7 +63,7 @@ header .profile-avatar {
 .social-links {
   display: flex;
   justify-content: space-between;
-  max-width: 240px;
+  max-width: 100px;
   width: 100%;
   margin: 0 auto;
 }
