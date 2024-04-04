@@ -8,10 +8,8 @@
   font-family: Roboto, sans-serif;
 }
 body {
-  color: #FF7F50;
-  background-image: url('/src/images/fundo2.png');
-  background-size: cover;
-  background-position: center;
+  color: #000000;
+  background: linear-gradient(to top, #000000, #FF7F50);
 }
 li {
   list-style: none;
@@ -59,7 +57,7 @@ header .profile-avatar {
 }
 .profile-bio-description {
   font-size: 14px;
-  opacity: 0.7;
+  opacity: 0.9;
   margin-bottom: 30px;
 }
 .social-links {
@@ -86,14 +84,14 @@ header .profile-avatar {
   padding: 16px 20px;
   margin-bottom: 16px;
   text-align: center;
-  color: #FF8C00;
+  color: #FF7F50;
   font-weight: bold;
   border-radius: 30px;
   border: 2px solid #00000081;
   transition: all ease 0.5s;
 }
 .projects-list-item a:hover {
-  color: #FF8C00;
+  color: #FF7F50;
   background-color: transparent;
   transform: scale(1.1);
 }
