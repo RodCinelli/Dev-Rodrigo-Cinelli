@@ -9,7 +9,7 @@
 }
 body {
   color: #000000;
-  background: linear-gradient(to top, #000000, #FF7F50);
+  background: linear-gradient(45deg, #000000, #FF7F50);
 }
 li {
   list-style: none;
