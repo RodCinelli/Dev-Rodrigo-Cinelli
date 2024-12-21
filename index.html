@@ -20,7 +20,7 @@
                 <h1 class="profile-bio-name">Rodrigo Cinelli</h1>
                 <h2 class="profile-bio-subtitle">Desenvolvedor Full-Stack</h2>
                 <p class="profile-bio-description">
-                    Para conhecer outros projetos visite meus repositórios no GitHub.
+                    Para conhecer outros projetos visite meus repositórios no GitHub.     
                 </p>
             </div>
         </header>
@@ -46,18 +46,29 @@
         <nav>
             <ul class="projects-list">
                 <li class="projects-list-item">
-                    <a href="https://wa.me/5521967730818">
+                    <a href="#" onclick="openVideoModal('bot-demo')">
                         Bot de Automação
+                        <span class="video-icon">▶️</span>
                     </a>
                 </li>
+
+                <!-- Modal do Vídeo -->
+                <div id="videoModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <video id="projectVideo" width="100%" controls>
+                            <source src="./src/videos/bot-demo.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                </div>
                 <li class="projects-list-item">
                     <a href="https://www.linkedin.com/feed/update/urn:li:activity:7186814173002010624/">
                         Visite o projeto "Zahraa"
                     </a>
                 </li>
                 <li class="projects-list-item">
-                    <a
-                        href="https://www.vintepila.com.br/servicos/outros-servicos-programacao/eu-vou-criar-um-gerenciador-de-tarefas-personalizado/">
+                    <a href="https://www.vintepila.com.br/servicos/outros-servicos-programacao/eu-vou-criar-um-gerenciador-de-tarefas-personalizado/">
                         Gerenciador de Tarefas
                     </a>
                 </li>
@@ -69,7 +80,5 @@
             </ul>
         </nav>
     </div>
-    <script src="src/js/modal.js"></script>
 </body>
-
 </html>
